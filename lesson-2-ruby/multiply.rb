@@ -19,15 +19,15 @@ puts("Your multiplied answer is: #{multiplication_answer}")
 =begin OUTPUT
 
 Let's muliply 2 numbers...
-Enter your first number: 
+Enter your first number:
 2
-Enter your second number: 
+Enter your second number:
 2
 Your multiplied answer is: 4
 
 =end
 loop do
-    puts("Let's multiply 2 numbers")
+    puts("Let's multiply 2 numbers!")
     puts("Enter your first number: ")
     x_string = gets
     x_num = x_string.to_i
@@ -41,25 +41,25 @@ end
 =begin output for loop
 
 Let's multiply 2 numbers
-Enter your first number: 
+Enter your first number:
 2
-Enter your secondnumber: 
-2
-Your multiplication answer is: 4
-Let's multiply 2 numbers
-Enter your first number: 
-2
-Enter your secondnumber: 
+Enter your secondnumber:
 2
 Your multiplication answer is: 4
 Let's multiply 2 numbers
-Enter your first number: 
+Enter your first number:
+2
+Enter your secondnumber:
+2
+Your multiplication answer is: 4
+Let's multiply 2 numbers
+Enter your first number:
 4
-Enter your secondnumber: 
+Enter your secondnumber:
 6
 Your multiplication answer is: 24
 Let's multiply 2 numbers
-Enter your first number: 
+Enter your first number:
 
-    
+
 =end
